@@ -1,0 +1,150 @@
+/*--Navbar Styling--*/
+blockquote {
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #414B83 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #fff !important;
+    margin: 2.1rem 0 1.68rem !important;
+}
+
+nav {
+    background-color: #fff !important;
+}
+
+nav a {
+    color: #414B83 !important;
+}
+
+nav li {
+    font-size: 1.5em !important;
+    font-weight: 500 !important;
+}
+
+nav .brand-logo {
+    color: #414B83 !important;
+}
+
+nav .nav-wrapper {
+    padding: 0 30px !important;
+    height: 100%;
+    position: relative;
+}
+
+
+/*------------------*/
+
+
+/*--Particle Section--*/
+
+section {
+    position: relative !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+section.section-one {
+    position: relative !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    background-color: #272C4E !important;
+    width: 100% !important;
+    height: 65% !important;
+}
+
+h1.main-title {
+    margin-top: 10rem !important;
+    line-height: inherit !important;
+    font-size: 3.0em !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+}
+
+h5.sub-title {
+    line-height: normal !important;
+    font-weight: 400 !important;
+    font-size: 1.8rem !important;
+    margin: .82rem 0 .656rem !important;
+    text-align: center !important;
+}
+
+span.dark-grey-text {
+    color: #121212 !important;
+    font-weight: 400 !important;
+}
+
+.btn-large {
+    height: 54px !important;
+    line-height: 54px !important;
+    background-color: #fbc02d !important;
+    margin-top: 25px !important;
+}
+
+canvas {
+    display: block !important;
+}
+
+section div#particles-js {
+    top: 0 !important;
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+/*------------------*/
+
+
+/*--About Section--*/
+
+section h4.subtitle {
+    margin-bottom: 16.67px !important;
+    color: #121212 !important;
+    font-weight: 400 !important;
+    font-size: 3rem !important;
+    margin: 1.14rem 1rem 2rem !important;
+    text-align: center !important;
+}
+
+section h5.subtitle {
+    color: #5a5a5a !important;
+    margin-bottom: 50px !important;
+    font-size: 1.8em !important;
+    text-align: center !important;
+    
+}
+
+div.bio .flow-text{
+    color: #5a5a5a !important;
+}
+
+/*------------------*/
+
+/*--Skills--*/
+.card .card-content {
+    padding: 20px !important;
+    border-radius: 0 0 2px 2px !important;
+}
+.card {
+    background-color: #fff !important;
+}
+
+/*------------------*/
+
+
+/*--Pricing--*/
+
+
+div.card-content.white-text.center-align{
+    color: #fff !important;
+    background-color: #414B82 !important;
+}
+
+/*------------------*/
