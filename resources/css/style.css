@@ -1,4 +1,5 @@
 /*--Navbar Styling--*/
+
 blockquote {
     margin: 20px 0;
     padding-left: 1.5rem;
@@ -14,8 +15,25 @@ h5 {
     margin: 2.1rem 0 1.68rem !important;
 }
 
+ul li{
+    list-style-type: none !important;
+}
 nav {
     background-color: #fff !important;
+}
+
+nav ul a {
+    font-size: 1rem !important;
+    padding: 0 15px !important;
+}
+
+nav ul a,
+nav ul li {
+    transition: background-color .3s !important;
+    transition-property: background-color !important;
+    transition-duration: 0.3s !important;
+    transition-timing-function: ease !important;
+    transition-delay: 0s !important;
 }
 
 nav a {
@@ -31,6 +49,9 @@ nav .brand-logo {
     color: #414B83 !important;
 }
 
+span.last{
+    color: #fbc02d !important;
+}
 nav .nav-wrapper {
     padding: 0 30px !important;
     height: 100%;
@@ -98,11 +119,14 @@ section div#particles-js {
 }
 
 
-
 /*------------------*/
 
 
 /*--About Section--*/
+
+section.section-about {
+    background-color: #EEEEEE !important;
+}
 
 section h4.subtitle {
     margin-bottom: 16.67px !important;
@@ -118,23 +142,27 @@ section h5.subtitle {
     margin-bottom: 50px !important;
     font-size: 1.8em !important;
     text-align: center !important;
-    
 }
 
-div.bio .flow-text{
+div.bio .flow-text {
     color: #5a5a5a !important;
 }
 
+
 /*------------------*/
 
+
 /*--Skills--*/
+
 .card .card-content {
     padding: 20px !important;
     border-radius: 0 0 2px 2px !important;
 }
+
 .card {
     background-color: #fff !important;
 }
+
 
 /*------------------*/
 
@@ -142,9 +170,36 @@ div.bio .flow-text{
 /*--Pricing--*/
 
 
-div.card-content.white-text.center-align{
+
+div.card-content.white-text.center-align {
     color: #fff !important;
     background-color: #414B82 !important;
+
+}
+
+span.amount{
+    font-size: 50px !important;
+    font-weight: 400 !important;
+}
+span.period{
+    font-size: 16px !important;
+    margin-left: 10px !important;
+}
+
+
+div.card ul li{
+    font-size: .9em !important;
+    line-height: 2.5em !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
 }
 
 /*------------------*/
+
+
+/*--Footer--*/
+
+footer.page-footer{
+    background-color: #414B82 !important;
+}
+  /*------------------*/

@@ -13,26 +13,67 @@
 
 
 
+
+
+
 </html>
 
 <body>
+    <!-- Modal Structure -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="resources/js/trigger.js"></script>
+
+
 
     <header>
         <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">ZM Driving</a>
+                    <a href="#" class="brand-logo">ZM <span class="last">Driving</span></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="#">About Me</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Pricing</a></li>
-                        <li><a class="waves-effect waves-light btn yellow darken-2 grey-text text-darken-4" href="#">Contact Me</a></li>
+                        <li><a href="#modal1" class="waves-effect waves-light btn yellow darken-2 grey-text text-darken-4 modal-trigger">Contact Me</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input disabled id="icon_prefix disabled" type="text" class="validate">
+                            <label for="icon_prefix disabled">Jeffry</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">phone</i>
+                            <input disabled id="icon_telephone" type="tel" class="validate">
+                            <label for="icon_telephone disabled">323-357-4182</label>
+                        </div>
+                        <div class="input-field col s6">
+                                <i class="material-icons prefix">email</i>
+                                <input disabled id="icon_telephone" type="tel" class="validate">
+                                <label for="icon_telephone disabled">jayhardway9@gmail.com</label>
+                            </div>
+                            <div class="input-field col s6">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input disabled id="icon_telephone" type="tel" class="validate">
+                                    <label for="icon_telephone disabled">Call for availability; usually Sunday.</label>
+                                </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Done</a>
+        </div>
+    </div>
     <main>
         <section class="section-one z-depth-1">
             <div id="particles-js">
@@ -143,107 +184,91 @@
                     <div class="col s12 m4 l4">
                         <div class="card">
                             <div class="card-content white-text center-align">
-                                <span class="card-title">Professional</span>
+                                <span class="card-title">Driving Plan 1</span>
                                 <span class="heading-divider"></span>
                             </div>
                             <div class="card-content main-content white center-align">
-                                    <p><span class="amount">$149</span><span class="period">/month</span></p>
+                                <p><span class="amount">$80</span><span class="period">/two hours</span></p>
+                                <ul>
+                                    <hr>
+                                    <span>Features:</span>
+                                    <hr>
+                                    <li>2 hours brush up lessons</li>
+                                    <li>Basic driving fundamentals</li>
+                                    <li>Parts of the car</li>
+                                    <li>Mock driving examination</li>
+                                    <li>Driving awareness</li>
                                     <ul>
-                                      <li>5 Active Flows</li>
-                                      <li>1 hour of assisted setup</li>
-                                      <li>7 Day Flow History</li>
-                                       <li>
-                                        <hr>
-                                          <span>Features:</span>
-                                        <hr>
-                                      </li>        
-                                      <li>Access to all connectors</li>
-                                      <li>Real time integrations</li>
-                                      <li>Email &amp; Chat Support</li>
-                                      <li>Error Alerting</li>
-                                      <li>Blueprints</li>
-                                    <ul>
-                                  </ul></ul>
-                                </div>
-                                <div class="card-action white center-align">
-                                        <a href="https://editor.stamplay.com/register" class="btn btn-large waves-effect waves-light yellow darken-2 segment-track-link" id="start-now-pricing"><span class="dark-grey-text">Start for free</span></a>
-                                      </div>
-                                      <p class="center-align"><span class="card-note"></span></p>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <div class="card-action white center-align">
+
+                            </div>
+                            <p class="center-align"><span class="card-note"></span></p>
                         </div>
                     </div>
                     <div class="col s12 m4 l4">
                         <div class="card">
                             <div class="card-content white-text center-align">
-                                <span class="card-title">Professional</span>
+                                <span class="card-title">Driving Plan 2</span>
                                 <span class="heading-divider"></span>
                             </div>
                             <div class="card-content main-content white center-align">
-                                    <p><span class="amount">$149</span><span class="period">/month</span></p>
-                                    <ul>
-                                      <li>5 Active Flows</li>
-                                      <li>1 hour of assisted setup</li>
-                                      <li>7 Day Flow History</li>
-                                       <li>
-                                        <hr>
-                                          <span>Features:</span>
-                                        <hr>
-                                      </li>        
-                                      <li>Access to all connectors</li>
-                                      <li>Real time integrations</li>
-                                      <li>Email &amp; Chat Support</li>
-                                      <li>Error Alerting</li>
-                                      <li>Blueprints</li>
-                                    <ul>
-                                  </ul></ul>
-                                </div>
-                                <div class="card-action white center-align">
-                                        <a href="https://editor.stamplay.com/register" class="btn btn-large waves-effect waves-light yellow darken-2 segment-track-link" id="start-now-pricing"><span class="dark-grey-text">Start for free</span></a>
-                                      </div>
-                                      <p class="center-align"><span class="card-note"></span></p>
+                                <p><span class="amount">$240</span><span class="period">/six hours</span></p>
+                                <ul>
+                                    <hr>
+                                    <span>Features:</span>
+                                    <hr>
+                                    <li>6 hours of intensive lessons</li>
+                                    <li>Driving fundamentals</li>
+                                    <li>Parts of the car</li>
+                                    <li>Mock driving examination</li>
+                                    <li>Driving awareness</li>
+                                </ul>
+                            </div>
+                            <div class="card-action white center-align">
+
+                            </div>
+                            <p class="center-align"><span class="card-note"></span></p>
                         </div>
                     </div>
                     <div class="col s12 m4 l4">
                         <div class="card">
                             <div class="card-content white-text center-align">
-                                <span class="card-title">Professional</span>
+                                <span class="card-title">DMV Car Rental</span>
                                 <span class="heading-divider"></span>
                             </div>
                             <div class="card-content main-content white center-align">
-                                    <p><span class="amount">$149</span><span class="period">/month</span></p>
+                                <p><span class="amount">$125</span><span class="period">/per car use</span></p>
+                                <ul>
+                                    <hr>
+                                    <span>Features:</span>
+                                    <hr>
+                                    <li>Pick up and drop-off to and from dmv</li>
+                                    <li>No need for insurance, just bring driver permit</li>
+                                    <li>Free set up for appointment</li>
+                                    <li>Easy to drive car (prius)</li>
+                                    <li><span></span></li>
+                                    <li><span></span></li>
                                     <ul>
-                                      <li>5 Active Flows</li>
-                                      <li>1 hour of assisted setup</li>
-                                      <li>7 Day Flow History</li>
-                                       <li>
-                                        <hr>
-                                          <span>Features:</span>
-                                        <hr>
-                                      </li>        
-                                      <li>Access to all connectors</li>
-                                      <li>Real time integrations</li>
-                                      <li>Email &amp; Chat Support</li>
-                                      <li>Error Alerting</li>
-                                      <li>Blueprints</li>
-                                    <ul>
-                                  </ul></ul>
-                                </div>
-                                <div class="card-action white center-align">
-                                        <a href="https://editor.stamplay.com/register" class="btn btn-large waves-effect waves-light yellow darken-2 segment-track-link" id="start-now-pricing"><span class="dark-grey-text">Start for free</span></a>
-                                      </div>
-                                      <p class="center-align"><span class="card-note"></span></p>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <div class="card-action white center-align">
+                            </div>
+                            <p class="center-align"><span class="card-note"></span></p>
                         </div>
                     </div>
                 </div>
                 <div>
         </section>
+        <footer class="page-footer">
+            <div class="footer-copyright">
+                <div class="container center-align">
+                    <span>© 2017 ZM</span>
+                </div>
+            </div>
+        </footer>
     </main>
-
-
-    <footer>
-
-
-    </footer>
-
-
-
 </body>
