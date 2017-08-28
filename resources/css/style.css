@@ -1,5 +1,4 @@
 /*--Navbar Styling--*/
-
 blockquote {
     margin: 20px 0;
     padding-left: 1.5rem;
@@ -47,6 +46,20 @@ nav li {
 
 nav .brand-logo {
     color: #414B83 !important;
+    font-size: 2.1rem !important;
+    padding: 0 !important;
+    white-space: nowrap !important;
+}
+
+
+nav .brand-logo img {
+    max-height: 30px !important;
+    padding-top: 5px !important;
+}    
+
+
+span.first{
+    color: #414B83 !important;
 }
 
 span.last{
@@ -57,7 +70,6 @@ nav .nav-wrapper {
     height: 100%;
     position: relative;
 }
-
 
 /*------------------*/
 
@@ -203,3 +215,5 @@ footer.page-footer{
     background-color: #414B82 !important;
 }
   /*------------------*/
+
+
