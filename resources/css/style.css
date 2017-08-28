@@ -119,6 +119,10 @@ span.dark-grey-text {
     margin-top: 25px !important;
 }
 
+a.disabled.btn.btn-large.full-width.waves-effect.waves-light.yellow.darken-2.start-button{
+    background-color: #fbc02d !important;
+}
+
 canvas {
     display: block !important;
 }
