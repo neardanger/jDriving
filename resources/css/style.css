@@ -84,8 +84,8 @@ section {
 
 section.section-one {
     position: relative !important;
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
+    padding-top: 0px !important;
+    padding-bottom: 60px !important;
     background-color: #272C4E !important;
     width: 100% !important;
     height: 100% !important;
@@ -100,7 +100,7 @@ h1.main-title {
 }
 
 h5.sub-title {
-    line-height: normal !important;
+    line-height: inherit !important;
     font-weight: 400 !important;
     font-size: 1.8rem !important;
     margin: .82rem 0 .656rem !important;
