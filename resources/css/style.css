@@ -88,7 +88,7 @@ section.section-one {
     padding-bottom: 50px !important;
     background-color: #272C4E !important;
     width: 100% !important;
-    height: 65% !important;
+    height: 100% !important;
 }
 
 h1.main-title {
@@ -124,7 +124,8 @@ a.disabled.btn.btn-large.full-width.waves-effect.waves-light.yellow.darken-2.sta
 }
 
 canvas {
-    display: block !important;
+    display: inline-block !important;
+    vertical-align: baseline !important;
 }
 
 section div#particles-js {
@@ -132,6 +133,13 @@ section div#particles-js {
     position: absolute !important;
     width: 100% !important;
     height: 100% !important;
+}
+
+.container{
+    margin: 0 auto !important;
+    max-width: 1280px !important;
+    width: 90% !important;
+    
 }
 
 
