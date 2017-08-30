@@ -80,6 +80,7 @@ section {
     position: relative !important;
     padding-top: 50px !important;
     padding-bottom: 50px !important;
+    
 }
 
 section.section-one {
@@ -140,6 +141,11 @@ section div#particles-js {
     max-width: 1280px !important;
     width: 90% !important;
     
+}
+
+.container .row {
+    margin-left: -.75rem !important;
+    margin-right: -.75rem !important;
 }
 
 
