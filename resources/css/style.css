@@ -218,6 +218,26 @@ div.card ul li{
 footer.page-footer{
     background-color: #414B82 !important;
 }
+
+ul.share-buttons{
+    list-style: none !important;
+    padding: 0 !important;
+  }
+  
+  ul.share-buttons li{
+    display: inline !important;
+  }
+  
+  ul.share-buttons .sr-only{
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px) !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden !important;
+  }
   /*------------------*/
 
 
